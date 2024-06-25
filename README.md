@@ -17,3 +17,19 @@ easily, you can do so by reading [Hard Way SSH](https://github.com/codex0x09/ssh
 ## First Step [Easy Way SSH](https://github.com/codex0x09/ssh_access/blob/master/easy_way.md).
 
 ## Second Step [Hard Way SSH](https://github.com/codex0x09/ssh_access/blob/master/hard_way.md).
+
+> [!NOTE]:
+> Please, keep reading the Unix/Linux manuals for more information/clarify.
+> IN both cases in this tutorial we going to work with ' ssh-keygen ' command to generate SSH KEY,
+> you can simple from you terminal type `man ssh-keygen` then you can find good info
+> about what ' ssh-keygen ' is, what all its `flags `(arguments) mean, and other topics related to it.
+> you can find `manual pages` (Unix/Linux manuals) online too, and here some of them:
+* for our tutorial:-  
+ Linux: man7 [ssh-keygen(1)](https://man7.org/linux/man-pages/man1/ssh-keygen.1.html)  
+ Linux: Linux man page [ssh-keygen(1)](https://linux.die.net/man/1/ssh-keygen)  
+ Unix: freeBSD man [ssh-keygen(1)](https://man.freebsd.org/cgi/man.cgi?query=ssh-keygen&apropos=0&sektion=0&manpath=FreeBSD+14.1-RELEASE+and+Ports&arch=default&format=html)  
+
+* In general:  
+ The Linux man page maintainer: [man7](https://man7.org)  
+ Easy to work with: [Linux man pages](https://linux.die.net/man/)  
+ Easy to work with: [Unix / FreeBSD Manual Pages](https://man.freebsd.org/cgi/man.cgi)  
