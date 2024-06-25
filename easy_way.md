@@ -1,7 +1,6 @@
 ## Generating a new SSH key
+To generate a new ssh key, we can do one of the following commands.
 
-You can generate a new SSH key on your local machine. After you generate the key,
-you can add the public key to your account on GitHub.com to enable authentication for Git operations over SSH.
 
 * First method using `RSA` algorithm, in your terminal type the following:
 ```
@@ -12,6 +11,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com OR anything"
 ```
 $ ssh-keygen -t ed25519 -C "your_email@example.com OR anything"
 ```
+>[!Note]: Please use `man ssh-keygen` to see the options (flags) meaning,
 
 ## First scenario, let's go with `RSA` algorithm and doing it in the easy way:
 ```
