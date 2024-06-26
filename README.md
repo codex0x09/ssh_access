@@ -18,10 +18,10 @@ easily, you can do so by reading [Hard Way SSH](https://github.com/codex0x09/ssh
 
 ## Second Step [Hard Way SSH](https://github.com/codex0x09/ssh_access/blob/master/hard_way.md).
 
-> [!NOTE]:
+> [!NOTE]
 > Please, keep reading the Unix/Linux manuals for more information/clarify.
-> IN both cases in this tutorial we going to work with ' ssh-keygen ' command to generate SSH KEY,
-> you can simple from you terminal type `man ssh-keygen` then you can find good info
+> In both cases in this tutorial we going to work with ' ssh-keygen ' command to generate SSH KEY,
+> you can simply from you terminal type `man ssh-keygen` then you can find good info
 > about what ' ssh-keygen ' is, what all its `flags `(arguments) mean, and other topics related to it.
 > you can find `manual pages` (Unix/Linux manuals) online too, and here some of them:
 * for our tutorial:-  
