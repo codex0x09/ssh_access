@@ -23,7 +23,7 @@ easily, you can do so by reading [Hard Way SSH](https://github.com/codex0x09/ssh
 > In both cases in this tutorial we going to work with `ssh-keygen` command to generate SSH KEY,
 > you can simply from you terminal type `man ssh-keygen` then you can find good info
 > about what `ssh-keygen` is, what all its `flags`(arguments) mean, and other topics related to it.
-> you can find `manual pages` (Unix/Linux manuals) online too, and here some of them:
+> you can find `manual pages` (Unix/Linux manuals) online too, and here is some of them:
 
 * For our tutorial:-  
  Linux: man7 [ssh-keygen(1)](https://man7.org/linux/man-pages/man1/ssh-keygen.1.html)  
