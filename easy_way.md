@@ -4,18 +4,18 @@ To generate a new ssh key, we can do one of the following commands.
 
 * First method using `RSA` algorithm, in your terminal type the following:
 ```
-$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com OR anything"
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com OR anything"
 ```
 
 * Second method using `Ed25519` algorithm:
 ```
-$ ssh-keygen -t ed25519 -C "your_email@example.com OR anything"
+ssh-keygen -t ed25519 -C "your_email@example.com OR anything"
 ```
 >[!Note]: Please use `man ssh-keygen` to see the options (flags) meaning,
 
 ## First scenario, let's go with `RSA` algorithm and doing it in the easy way:
 ```
-$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com OR anything"
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com OR anything"
 ```
 1. This creates a new SSH key, using the provided email/or/anything as a label.
 ```
@@ -42,7 +42,7 @@ Done, now if you list your `.ssh` directory you'll see something like this:
 First of all copy the content of `id_rsa.pub` file, from your terminal, use `cat` command to list `id_rsa.pub` content and then copy the output
 ```
 $ cd ~/.ssh
-ssh $ cat id_rsa.pub
+.ssh $ cat id_rsa.pub
 ```
 
 then, go to your Github [Settings](https://github.com/settings/profile) then find the option for [SSH and GPG keys](https://github.com/settings/keys).  
@@ -64,7 +64,7 @@ From this page click the button `New SSH key`, now you see a page with the follo
 4. Let's test our SSH:
 From your terminal type the following: 
 ```
-$ ssh -T git@github.com
+ssh -T git@github.com
 > Hi "your_email@example.com OR something else"! You've successfully autyenticated, but GitHub does not provide shell access.
 ```
 Congratulation, now you can access your on GitHub.com via [SSH](https://en.wikipedia.org/wiki/Secure_Shell) to do all [Git](https://www.git-scm.com) operations.
@@ -85,7 +85,7 @@ git@github.com:<Username>/<Project>.git
 
 - Now to convert existing Origin remote `HTTPS URL` to `SSH` do the following:
 ```
-$ git remote set-url origin git@github.com:<Username>/<Project>.git
+git remote set-url origin git@github.com:<Username>/<Project>.git
 ```
 
 Example:
