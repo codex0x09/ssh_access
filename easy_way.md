@@ -38,14 +38,14 @@ Done, now if you list your `.ssh` directory you'll see something like this:
 └── id_rsa.pub
 ```
 
-3. Now, let's add the public key `id_rsa.pub` to your account on GitHub.com:  
+3. Now, let's add the public key `id_rsa.pub` to your account on GitHub.com:<br>
 First of all copy the content of `id_rsa.pub` file, from your terminal, use `cat` command to list `id_rsa.pub` content and then copy the output
 ```
 $ cd ~/.ssh
 .ssh $ cat id_rsa.pub
 ```
 
-then, go to your Github [Settings](https://github.com/settings/profile) then find the option for [SSH and GPG keys](https://github.com/settings/keys).  
+then, go to your Github [Settings](https://github.com/settings/profile) then find the option for [SSH and GPG keys](https://github.com/settings/keys).<br>
 From this page click the button `New SSH key`, now you see a page with the following fields:
 
 `Title`
@@ -62,7 +62,7 @@ From this page click the button `New SSH key`, now you see a page with the follo
 ```
 
 4. Let's test our SSH:
-From your terminal type the following: 
+From your terminal type the following:<br>
 ```
 ssh -T git@github.com
 > Hi "your_email@example.com OR something else"! You've successfully autyenticated, but GitHub does not provide shell access.
@@ -102,4 +102,5 @@ Example:
 > origin  git@github.com:codex0x09/.dotfiles.git (fetch)
 > origin  git@github.com:codex0x09/.dotfiles.git (push)
 ```
-For the next time you create new repo use `SSH` link.
+For the next time, when you create a new repo use `SSH` link to fetch your repo.
+Have a nice coding time and take care `<(^.^)>`
