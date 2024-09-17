@@ -1,13 +1,13 @@
 ### Second scenario, with `RSA` algorithm and doing it in the Hard way:
 
-* *_Example: when run `$ ssh-keygen -t rsa -b 4096 -C "codex0x09"`, you'll see something like this_*
+* *_Example: when you run `$ ssh-keygen -t rsa -b 4096 -C "codex0x09"`, you'll see something like this_*
 
 ```sh
 > Enter a file in which to save the key (/home/codex/.ssh/id_rsa):  [you can leave it blank and accept the default name]
 > Enter passphrase (empty for no passphrase):   [set password for your keys or leave it blank and hit enter]
 ```
 
-* But, what if you don't want the default name `id_rsa` !!?
+* *_But, what if you don't want the default name `id_rsa` !!?_*
 
 ```sh
 ~ $ ssh-keygen -t rsa -b 4096 -C "codex0x09"
