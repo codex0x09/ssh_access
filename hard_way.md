@@ -10,8 +10,8 @@
 
 * But, I unwant the default name `id_rsa` !!
 
-```log
-$ ssh-keygen -t rsa -b 4096 -C "codex0x09"
+```sh
+~ $ ssh-keygen -t rsa -b 4096 -C "codex0x09"
 > Enter a file in which to save the key (/home/codex/.ssh/id_rsa): codex_at_git
 > Enter passphrase (empty for no passphrase): 
 ```
