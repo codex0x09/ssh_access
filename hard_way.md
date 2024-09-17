@@ -3,15 +3,16 @@
 * *_Example: when you run `$ ssh-keygen -t rsa -b 4096 -C "codex0x09"`, you'll see something like this_*
 
 ```sh
-> Enter a file in which to save the key (/home/codex/.ssh/id_rsa): [you can leave it blank and accept the default name]
-> Enter passphrase (empty for no passphrase): [set password for your keys or leave it blank and hit enter]
+> Enter a file in which to save the key (/home/codex/.ssh/id_rsa): [you can leave it blank to accept the default name]
+> Enter passphrase (empty for no passphrase): [set password for your key or leave it blank and hit enter]
 ```
 
 * *_But, what if you don't want the default name `id_rsa` !!?_*
 
 ```sh
+# I'm going to set mine, you can do so
 ~ $ ssh-keygen -t rsa -b 4096 -C "codex0x09"
-> Enter a file in which to save the key (/home/codex/.ssh/id_rsa): codex_at_git
+> Enter a file in which to save the key (/home/codex/.ssh/id_rsa): codex_at_git [Enter]
 > Enter passphrase (empty for no passphrase): [Enter]
 ```
 
