@@ -1,6 +1,6 @@
 ### Second scenario, with `RSA` algorithm and doing it in the Hard way:
 
-* *_Example of `ssh-keygen -t rsa -b 4096 -C "codex0x09"`, you'll see something like this_*:
+* *_Example: when run `$ ssh-keygen -t rsa -b 4096 -C "codex0x09"`, you'll see something like this_*
 
 ```sh
 > Enter a file in which to save the key (/home/codex/.ssh/id_rsa):  [you can leave it blank and accept the default name]
