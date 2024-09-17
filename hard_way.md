@@ -13,15 +13,15 @@
 ```sh
 ~ $ ssh-keygen -t rsa -b 4096 -C "codex0x09"
 > Enter a file in which to save the key (/home/codex/.ssh/id_rsa): codex_at_git
-> Enter passphrase (empty for no passphrase): 
+> Enter passphrase (empty for no passphrase): [Enter]
 ```
 
 ```sh
 ~ $ tree .ssh
 
 .ssh
-├── codex_at_git
-└── codex_at_git.pub
+├── codex_at_git       # -- private key
+└── codex_at_git.pub   # -- public key
 ```
 
 ## How to Set, Reset, or even Change the passphrase:
