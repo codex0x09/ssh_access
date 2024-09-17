@@ -1,14 +1,13 @@
-## Second scenario, with `RSA` algorithm and doing it in the Hard way:
+### Second scenario, with `RSA` algorithm and doing it in the Hard way:
 
+* *_Example of `ssh-keygen -t rsa -b 4096 -C "codex0x09"`, you'll see something like this_*:
 
-## Example of `ssh-keygen -t rsa -b 4096 -C "codex0x09"`, you'll see something like this:
-
-```log
-> Enter a file in which to save the key (/home/codex/.ssh/id_rsa):  [I can leave it blank and accept the default name]
+```sh
+> Enter a file in which to save the key (/home/codex/.ssh/id_rsa):  [you can leave it blank and accept the default name]
 > Enter passphrase (empty for no passphrase):   [set password for your keys or leave it blank and hit enter]
 ```
 
-* But, I unwant the default name `id_rsa` !!
+* But, what if you don't want the default name `id_rsa` !!?
 
 ```sh
 ~ $ ssh-keygen -t rsa -b 4096 -C "codex0x09"
@@ -29,7 +28,6 @@
 ```sh
 # first, navigate to your [.ssh] dir or use absolute path as you wish,
 # then do the following by choosing your private key, that you're using
-
 ~/.ssh $ ssh-keygen -p -f codex_at_git
 
 # in case you want to Set the passphrase
@@ -51,8 +49,6 @@ Key has comment 'codex0x09'
 Enter new passphrase (empty for no passphrase): [your_New_password] [Enter]
 Enter same passphrase again: [your_New_password] [Enter]
 Your identification has been saved with the new passphrase.
-
- ~/.ssh $ 
 ```
 
-###  That's it. Take care `<(^.^)>`
+####  That's it. Take care `<(^.^)>`
